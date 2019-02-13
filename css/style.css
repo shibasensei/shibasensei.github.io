@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  width: 100%;
+  background-color: #C36279;
+  border-bottom: 2px solid #75142B;
+}
+
+header h1{
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 3em;
+  padding: 1% 0 0 2%;
+  color: #EA9CAE;
+}
+
+.container{
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img{
+  height: 450px;
+  width: 450px;
+  margin: 1%;
+  transition: all 1s;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
